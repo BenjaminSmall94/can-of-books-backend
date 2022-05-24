@@ -7,7 +7,7 @@ async function getBooks (req, res, next) {
   if (req.query.title) {
     queryObject = {
       title: req.query.title,
-    }
+    };
   }
   try {
     let results = await Book.find(queryObject);
