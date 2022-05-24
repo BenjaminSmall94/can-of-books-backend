@@ -5,6 +5,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const getBooks = require('./modules/getBooks.js');
 
 //USE
 const app = express();

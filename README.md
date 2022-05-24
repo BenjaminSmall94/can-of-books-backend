@@ -1,38 +1,42 @@
 # Project Name
 
 **Author**: Benjamin Small, Dana Huffman
-**Version**: 1.0.0
+**Version**: 1.0.1
 
 ## Overview
+
 This manages the server and database for an app that takes book requests and gives book information for use by the client.
 
 ## Getting Started
+
 The user must run "npm i" and alter the .env.sample file to use the appropriate local value
 
 ## Architecture
+
 Implements JavaScript, Express and runs in the Node environment.
 
 ## Change Log
 
 05-23-2022 4:29pm - Connected to MongoDB and built book schema
+05-23-2022 5:26pm - Created seed.js and got /books route running with getBooks.
 
 ## Estimates
 
-#### Day 1
+### Day 1
 
 1. Feature Task #1
-   - Name: Refactor Modularize the back-end
+   - Name: Set up repos
    - Estimated Time: 1 hr
-   - Start: May 19, 2022 7:00pm
-   - End: May 19, 2022 7:45pm
+   - Start: May 23, 2022 3:00pm
+   - End: May 23, 2022 3:45pm
    - Actual Time: 45 min
 
 2. Feature Task #2
-   - Name: Componetize Front end and clean up formatting.
-   - Estimated Time: 1 hr
-   - Start: May 19, 2022 9:30pm
-   - End: May 19, 2022 11:30pm
-   - Actual Time: 2-hr
+   - Name: Storage
+   - Estimated Time: 1 hr 15 min
+   - Start: May 23, 2022 4:00pm
+   - End: May 23, 2022 5:25pm
+   - Actual Time: 1 hr 25 min
 
 ## Credit and Collaborations
 
