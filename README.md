@@ -1,7 +1,7 @@
 # Project Name
 
 **Author**: Benjamin Small, Dana Huffman
-**Version**: 1.0.1
+**Version**: 1.1.0
 
 ## Overview
 
@@ -19,6 +19,7 @@ Implements JavaScript, Express and runs in the Node environment.
 
 05-23-2022 4:29pm - Connected to MongoDB and built book schema
 05-23-2022 5:26pm - Created seed.js and got /books route running with getBooks.
+05-24-2022 4:00pm - Added postBooks module and error handling.
 
 ## Estimates
 
@@ -38,9 +39,19 @@ Implements JavaScript, Express and runs in the Node environment.
    - End: May 23, 2022 5:25pm
    - Actual Time: 1 hr 25 min
 
+### Day 2
+
+1. Feature Task #1
+   - Name: Create
+   - Estimated Time: 1 hr
+   - Start:May 24, 2022 3:45pm
+   - End:
+   - Actual Time:
+
 ## Credit and Collaborations
 
 This app was created with [Dana Huffman](https://github.com/dLeigh01)
+[in class demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-12/in-class-demo/cats-back-end)
 
 - Logistical
   - What hours will you be available to communicate? 9am-9pm
