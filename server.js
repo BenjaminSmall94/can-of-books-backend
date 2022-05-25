@@ -7,6 +7,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const getBooks = require('./modules/getBooks.js');
 const postBooks = require('./modules/postBooks.js');
+const deleteBooks = require('./modules/deleteBooks.js');
 
 //USE
 const app = express();
@@ -30,9 +31,13 @@ app.get('/', (req, res) => {
 });
 
 // Books ----------------
+
 app.get('/books', getBooks);
 
 app.post('/books', postBooks);
+
+app.delete('/books/:id', deleteBooks);
+
 //--------------------------
 
 app.get('/test', (request, response) => {

@@ -1,7 +1,7 @@
 # Project Name
 
-**Author**: Benjamin Small, Dana Huffman
-**Version**: 1.1.0
+**Authors**: Benjamin Small, Dana Huffman
+**Version**: 1.1.1
 
 ## Overview
 
@@ -20,6 +20,7 @@ Implements JavaScript, Express and runs in the Node environment.
 05-23-2022 4:29pm - Connected to MongoDB and built book schema
 05-23-2022 5:26pm - Created seed.js and got /books route running with getBooks.
 05-24-2022 4:00pm - Added postBooks module and error handling.
+05-24-2022 5:51pm - Added deleteBooks module.
 
 ## Estimates
 
@@ -42,16 +43,31 @@ Implements JavaScript, Express and runs in the Node environment.
 ### Day 2
 
 1. Feature Task #1
-   - Name: Create
+   - Name: Create a postBook method and user interface.
    - Estimated Time: 1 hr
-   - Start:May 24, 2022 3:45pm
-   - End:
+   - Start: May 24, 2022 3:45pm
+   - End: May 24, 2022 5:20pm
+   - Actual Time: 1 hr 25 min
+
+2. Feature Task #2
+   - Name: Create a deleteBook method and user interface.
+   - Estimated Time: 1 hr
+   - Start: May 24, 2022 5:30pm
+   - End: May 24, 2022 0:00pm
    - Actual Time:
 
 ## Credit and Collaborations
 
-This app was created with [Dana Huffman](https://github.com/dLeigh01)
-[in class demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-12/in-class-demo/cats-back-end)
+### Author GitHubs
+
+- [Dana Huffman](https://github.com/dLeigh01)
+- [Benjamin Small](https://github.com/BenjaminSmall94)
+
+### Credit/Citations
+
+- [in class demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-12/in-class-demo/cats-back-end)
+
+### Work Agreement
 
 - Logistical
   - What hours will you be available to communicate? 9am-9pm
