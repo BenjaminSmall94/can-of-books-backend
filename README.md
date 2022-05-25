@@ -1,7 +1,7 @@
 # Project Name
 
 **Authors**: Benjamin Small, Dana Huffman
-**Version**: 1.1.1
+**Version**: 1.2.0
 
 ## Overview
 
@@ -21,6 +21,7 @@ Implements JavaScript, Express and runs in the Node environment.
 05-23-2022 5:26pm - Created seed.js and got /books route running with getBooks.
 05-24-2022 4:00pm - Added postBooks module and error handling.
 05-24-2022 5:51pm - Added deleteBooks module.
+05-25-2022 1:54pm - Created a updateBooks module and route.
 
 ## Estimates
 
@@ -56,6 +57,15 @@ Implements JavaScript, Express and runs in the Node environment.
    - End: May 24, 2022 7:00pm-8:00pm
    - Actual Time: 1 hr 45 min
 
+### Day 3
+
+1. Feature Task #1
+   - Name: Create an updateBook method and user interface.
+   - Estimated Time: 1 hr 20 min
+   - Start: May 25, 2022 1:40pm
+   - End: May 25, 2022
+   - Actual Time: 1 hr
+
 ## Credit and Collaborations
 
 ### Author GitHubs
@@ -65,7 +75,8 @@ Implements JavaScript, Express and runs in the Node environment.
 
 ### Credit/Citations
 
-- [in class demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-12/in-class-demo/cats-back-end)
+- [Class 12 demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-12/in-class-demo/cats-back-end)
+- [Class 13 Demo](https://github.com/codefellows/seattle-code-301d85/tree/main/class-13/demo/back-end)
 
 ### Work Agreement
 

@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const getBooks = require('./modules/getBooks.js');
 const postBooks = require('./modules/postBooks.js');
 const deleteBooks = require('./modules/deleteBooks.js');
+const updateBooks = require('./modules/updateBooks.js');
 
 //USE
 const app = express();
@@ -38,6 +39,8 @@ app.post('/books', postBooks);
 
 app.delete('/books/:id', deleteBooks);
 
+app.put('/books/:id', updateBooks);
+
 //--------------------------
 
 app.get('/test', (request, response) => {
@@ -50,7 +53,7 @@ app.get('*', (req, res) => {
 
 // Errors
 
-app.use((error, rec, res, next) => {
+app.use((error, rec, res) => {
   res.status(500).send(error.message);
 });
 
