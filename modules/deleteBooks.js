@@ -2,7 +2,7 @@
 
 const Book = require('../models/book');
 
-async function getBooks (req, res, next) {
+async function deleteBooks (req, res, next) {
   try {
     await Book.findByIdAndDelete(req.params.id);
     res.status(204).send('book deleted');
@@ -11,4 +11,4 @@ async function getBooks (req, res, next) {
   }
 }
 
-module.exports = getBooks;
+module.exports = deleteBooks;
