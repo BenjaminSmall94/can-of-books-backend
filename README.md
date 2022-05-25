@@ -63,8 +63,8 @@ Implements JavaScript, Express and runs in the Node environment.
    - Name: Create an updateBook method and user interface.
    - Estimated Time: 1 hr 20 min
    - Start: May 25, 2022 1:40pm
-   - End: May 25, 2022
-   - Actual Time: 1 hr
+   - End: May 25, 2022 3:30pm
+   - Actual Time: 1 hr 50 min
 
 ## Credit and Collaborations
 
