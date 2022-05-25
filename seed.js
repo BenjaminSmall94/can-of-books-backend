@@ -17,7 +17,7 @@ async function seed() {
   await Book.create({
     title: 'The Boys in the Boat',
     description: 'The narrative follows the University of Washington rowing team\’s bid for gold at the 1936 Berlin Olympics amid the Great Depression and Adolf Hitler\’s rise to power.',
-    status: true,
+    status: false,
   });
   await Book.create({
     title: 'Harry Potter and the Philosopher\'s Stone',
