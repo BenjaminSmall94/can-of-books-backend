@@ -52,9 +52,9 @@ Implements JavaScript, Express and runs in the Node environment.
 2. Feature Task #2
    - Name: Create a deleteBook method and user interface.
    - Estimated Time: 1 hr
-   - Start: May 24, 2022 5:30pm
-   - End: May 24, 2022 0:00pm
-   - Actual Time:
+   - Start: May 24, 2022 5:30pm-6:15pm
+   - End: May 24, 2022 7:00pm-8:00pm
+   - Actual Time: 1 hr 45 min
 
 ## Credit and Collaborations
 
